@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+div.centered {
+    text-align: center;
+}
+
+div.container {
+        text-align: center;
+      }
+      
+ul.centered-list {
+        display: inline-block;
+        text-align: left;
+      }
+
+img {
+        width: 40%;
+        height: 40%;
+        object-fit: contain;
+    }

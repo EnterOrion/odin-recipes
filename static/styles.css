@@ -1,16 +1,23 @@
-body {
+body, #exception {
     background-color: beige;
 }
 
-div.centered {
+h3 {
+    background-color: darkgrey;
+}
+
+#exception {
+    text-decoration: underline;
+}
+
+
+.centered, .container {
     text-align: center;
 }
 
-div.container {
-        text-align: center;
-      }
-      
-ul.centered-list {
+
+
+.centered-list {
         display: inline-block;
         text-align: left;
       }
@@ -19,4 +26,10 @@ img {
         width: 40%;
         height: 40%;
         object-fit: contain;
+        border: 3px solid #555;
     }
+
+footer{
+    font-style: italic;
+}
+
